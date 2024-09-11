@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm Hồ Sơ Sinh Viên</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Thêm Hồ Sơ Sinh Viên</h1>
+    <form action="add_student.php" method="post">
+        <label for="name">Tên:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="ngaysinh">Ngày Sinh :</label>
+        <input type="date" id="ngaysinh" name="ngaysinh" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="address">Địa chỉ:</label>
+        <textarea id="address" name="address" required></textarea><br><br>
+        <input type="submit" value="Thêm">
+    </form>
+</body>
+</html>
